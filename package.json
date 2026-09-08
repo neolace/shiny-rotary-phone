@@ -1,0 +1,14 @@
+{
+  "name": "entra-auth",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "format": "dotnet format EntraAuth.slnx --severity warn && npm --prefix infra run lint:fix && prettier --write \"**/*.{md,yml,yaml,json}\"",
+    "lint": "dotnet format EntraAuth.slnx --verify-no-changes --severity warn && npm --prefix infra run lint"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.2"
+  }
+}

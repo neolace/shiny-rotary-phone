@@ -1,0 +1,10 @@
+**/.git
+**/.vs
+**/bin
+**/obj
+**/node_modules
+**/cdk.out
+**/infra/dist
+**/tests
+**/*.md
+**/.env

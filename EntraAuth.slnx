@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/DaemonClient/DaemonClient.csproj" />
+    <Project Path="samples/SampleApi/SampleApi.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/EntraAuth.AspNetCore/EntraAuth.AspNetCore.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EntraAuth.AspNetCore.Tests/EntraAuth.AspNetCore.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,11 @@
+**/bin
+**/obj
+**/node_modules
+**/cdk.out
+**/dist
+package-lock.json
+infra/package-lock.json
+*.slnx
+*.csproj
+*.props
+*.http

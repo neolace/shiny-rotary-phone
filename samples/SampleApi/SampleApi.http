@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:8080
+@token = paste-entra-access-token
+
+GET {{baseUrl}}/health
+
+###
+
+GET {{baseUrl}}/orders
+Authorization: Bearer {{token}}
+
+###
+
+POST {{baseUrl}}/orders
+Authorization: Bearer {{token}}
